@@ -1,6 +1,6 @@
 ## LinkedIn Word Game Proxy Server
 
-Simple Node server that allows us to make a GET request for words from the LinkedIn words API. If necessary, parameters can be specified.
+Simple Node server that allows us to make a GET request for words from the LinkedIn words API. If necessary, parameters can be specified. You can find the [game client](https://github.com/ausyau/word-game-client)
 
 Example: `GET BASE_URL/words`
 #### LinkedIn API Query Parameters

@@ -2,9 +2,8 @@
   "name": "game-server",
   "version": "1.0.0",
   "description": "Read me",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",

@@ -9,6 +9,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
+/**
+ * Simple Backend that queries the LinkedIn API to get words. 
+ */
 app.get('/words', async function(req, res) {
   const params = req.query;
   const response = await axios({
